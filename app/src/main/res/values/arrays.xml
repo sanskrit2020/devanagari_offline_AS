@@ -1,0 +1,51 @@
+<resources>
+
+    <string-array name="allowed_sites">
+		<item>wikipedia.org</item>
+		<item>wikipedia.org</item>
+				
+        </string-array>
+    <string-array name="sites">
+	  <item>AnnapurnaStotram</item>
+	  <item>AtmaShatakam_NirvanaShatakam</item>
+	  <item>MahishasuramardiniStotram</item>
+	  <item>MarutiStotra</item>
+	  <item>NavagrahaStotram</item>
+	  <item>SarvaSiddhiPradayakGanapatiStotram</item>
+	  <item>ShivaTandavaStotram</item>
+	  <item>ShreeDurgaSaptashlokiStotram</item>
+	  <item>ShreeGaneshPancha-RatnaStotram</item>
+	  <item>ShriGanapatiAtharvashirsham</item>
+	  <item>ShriRamrakshaStotram</item>
+	  <item>ShriSankataNashakaGanapatiStotram</item>
+        
+    	</string-array>
+        
+    
+    
+    <string-array name="sites_url">
+		<item>AnnapurnaStotram.html</item>
+		<item>AtmaShatakam_NirvanaShatakam.html</item>
+		<item>MahishasuramardiniStotram.html</item>
+		<item>MarutiStotra.html</item>
+		<item>NavagrahaStotram.html</item>
+		<item>SarvaSiddhiPradayakGanapatiStotram.html</item>
+		<item>ShivaTandavaStotram.html</item>
+		<item>ShreeDurgaSaptashlokiStotram.html</item>
+		<item>ShreeGaneshPancha-RatnaStotram.html</item>
+		<item>ShriGanapatiAtharvashirsham.html</item>
+		<item>ShriRamrakshaStotram.html</item>
+		<item>ShriSankataNashakaGanapatiStotram.html</item>
+	</string-array>
+<!-- 
+
+
+"   &quot;
+'   &apos;
+<   &lt;
+>   &gt;
+&   &amp;
+
+-->
+
+</resources>

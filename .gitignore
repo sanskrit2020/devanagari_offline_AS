@@ -1,0 +1,40 @@
+/bin
+bin
+/gen
+build
+*/*/build/outputs
+news/app/build/outputs
+*/app/build
+/.gradle
+/*/build
+local.properties
+#built application files
+*.apk
+*.ap_
+*.iml
+.gradle
+/local.properties
+/.idea/workspace.xml
+/.idea/libraries
+.DS_Store
+/build
+/captures
+.externalNativeBuild
+# Gradle generated files
+.gradle/
+news/.idea/libraries/
+# Signing files
+.signing/
+*/.idea
+# User-specific configurations
+.idea/libraries/
+.idea/workspace.xml
+.idea/tasks.xml
+.idea/.name
+.idea/compiler.xml
+.idea/copyright/profiles_settings.xml
+.idea/encodings.xml
+.idea/misc.xml
+.idea/modules.xml
+.idea/scopes/scope_settings.xml
+.idea/vcs.xml

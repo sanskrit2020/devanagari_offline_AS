@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">स्तोत्र</string>
+    <string name="menu_site">Change Site</string>
+    <string name="menu_exit">Exit</string>
+    <string name="menu_toggle">Toggle images</string>
+</resources>
