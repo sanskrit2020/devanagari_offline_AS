@@ -77,7 +77,7 @@ Then click on the title "I added new stothram" to download.
 ![Files](https://github.com/sanskrit2020/devanagari_offline_AS/blob/master/img/jobcomplete.png)
 
 
-Github will download this as ZIP file:  **devanagiri-offline-debug.apk.zip**
+Github will download this as ZIP file:  **devanagari-offline-debug.apk.zip**
 
 
 10. Copy ZIP file to ``` /tmp ``` folder
@@ -86,7 +86,7 @@ Github will download this as ZIP file:  **devanagiri-offline-debug.apk.zip**
 
 ```sh
 cd /tmp
-unzip devanagiri-offline-debug.apk.zip
+unzip devanagari-offline-debug.apk.zip
 adb install app-debug.apk
 ```
 
