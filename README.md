@@ -60,8 +60,9 @@ See the newest change/edit/add you made.
 
 
 Check if tick mark is green. Means successfully compiled.
-Red: Failed.
-Example:
+
+
+Red: Failed. Example:
 
 ![Files](https://github.com/sanskrit2020/devanagari_offline_AS/blob/master/img/red.png)
 
