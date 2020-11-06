@@ -1,15 +1,55 @@
-
-<body class=" mobile variant-renewable">
-
+### Initial setup on phone
 
 
-<!DOCTYPE html>
-<html class="v2" dir="ltr"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-<meta content="width=device-width,initial-scale=1.0,minimum-scale=1.0,maximum-scale=1.0" name="viewport">
-<style>
-body  {
-  background-color: #d3eeb0;
-}
-</style>
-  </head> 
+1. Connect mobile
 
+2. Check if USB debugging is enabled
+
+```sh
+cd /tmp
+adb devices
+
+```
+
+The output should look like this:
+
+```sh
+name@computer: /tmp $ adb devices
+List of devices attached
+TF224JHN5	device
+```
+
+### Edit files and create APK
+
+3. Go to https://github.com/sanskrit2020/devanagari_offline_AS
+
+4. Edit/create your files 
+
+```sh
+devanagari_offline_AS/app/src/main/assets/
+```
+
+5. Click "Commit Changes at the bottom of the page"
+
+6. Once you commit changes it will AUTOMATICALLY COMPILE APK
+
+4. Click on Actions. See screenshot:
+
+5. Click the newest run - 
+
+6. Verify artifacts is green tick mark
+
+7. Download the file devanagiri-offline-debug.apk
+
+8. Open terminal
+
+```sh
+cd /tmp
+unzip devanagiri-offline-debug.apk.zip
+adb install app-debug.apk
+
+```
+2. Install NPM packages
+```sh
+npm install
+```
