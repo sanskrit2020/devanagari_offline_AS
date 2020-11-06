@@ -61,14 +61,25 @@ See the newest change/edit/add you made.
 
 Check if tick mark is green. Means successfully compiled.
 Red: Failed.
+Example:
+
+![Files](https://github.com/sanskrit2020/devanagari_offline_AS/blob/master/img/red.png)
+
+
+If RED then edit the file and redo - commit.
+
+
 
 Then click on the title "I added new stothram" to download.
 
-Github will download this as ZIP file:  **devanagiri-offline-debug.apk.zip**
 
 ![Files](https://github.com/sanskrit2020/devanagari_offline_AS/blob/master/img/jobcomplete.png)
 
-10. Download the file devanagiri-offline-debug.apk. Copy to ``` /tmp ``` folder
+
+Github will download this as ZIP file:  **devanagiri-offline-debug.apk.zip**
+
+
+10. Copy ZIP file to ``` /tmp ``` folder
 
 11. Open terminal
 
@@ -77,5 +88,7 @@ cd /tmp
 unzip devanagiri-offline-debug.apk.zip
 adb install app-debug.apk
 ```
+
+12. This will install the 'app' in mobile phone.
 
 
