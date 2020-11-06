@@ -17,6 +17,6 @@ jobs:
             -   name: Upload artifact to GitHub
                 uses: actions/upload-artifact@v2
                 with:
-                    name: devanagiri-offline-debug.apk
+                    name: devanagari-offline-debug.apk
 #                    path: ./**/*apk
                     path: app/build/outputs/apk/debug/app-debug.apk
